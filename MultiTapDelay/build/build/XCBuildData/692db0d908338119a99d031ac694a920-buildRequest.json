@@ -1,0 +1,92 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93161e1ebe539878dbfc88467faf2df51e"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da9328132b899f1461f7bf140bcb44e796ad"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93747346ad7ba48703641a8d06a1a57b9c"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93bf07bb0c8d98de019f483a0b6becdf23"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93fb4c26f6a759427b2da4b3677ca7112d"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93e9b523f587964588a688d556488cedb4"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93efe7dc8e3e4407ca319fd6d90dc52e42"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93fe574cd93308bc80c2d9e13c1a9576a0"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93f7c96f2f5624cff29cb1bd627ac1031e"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93903dfbd013f76f95fa2c1ac1aad67eb4"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da93c280a1474dddab2771afc1bfe576a586"
+    },
+    {
+      "guid" : "21db7e818adda50a97b8e10dfe87da933c4867d8443f8f51885f5f72eab43e0f"
+    }
+  ],
+  "containerPath" : "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/MultiTapDelay.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/isaac/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/isaac/Library/Developer/Xcode/DerivedData/MultiTapDelay-fuamyosnkuvlkifaxthuezuektzk/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/isaac/Library/Developer/Xcode/DerivedData/MultiTapDelay-fuamyosnkuvlkifaxthuezuektzk/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

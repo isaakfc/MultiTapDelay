@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9883693689B344719BAF07C4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01B1E84163D14848B0D39B0F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F969F5EFEF5E25DE7718BE17 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2651DB8A412147EA8023A836 /* PBXTargetDependency */,
+				7F152F8E6E2B42AAA66A1686 /* PBXTargetDependency */,
+				04EC12CFFFA14FBDB9DEEEDF /* PBXTargetDependency */,
+				A988318BEBFD4C18B0AE0CA5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A522201CF60A4DD996DC3245 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3ACD67D8F7384663947441A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3AA220B4F4697AAE1510E776 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0079F933504943C087BEF2F0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */ = {isa = PBXBuildFile; fileRef = 356CD5EE4A0F404C9101CC7C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */; };
+		043C07EEF20141E4BFA026C0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard.h */ = {isa = PBXBuildFile; fileRef = 2F6D706795664ABDAAF06B98 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard.h */; };
+		05F795B973AB4D71ACE42511 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h */ = {isa = PBXBuildFile; fileRef = 0298FEC9C4844AEEB0E64087 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h */; };
+		07D95CCB0E164208B3CF055C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.cpp */ = {isa = PBXBuildFile; fileRef = D0A8BA37622D4DAEA415E796 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.cpp */; };
+		09421B37CE4F4F58841E8308 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */ = {isa = PBXBuildFile; fileRef = C0793FF9D10B418997FCB17E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */; };
+		0A7606975F84492384A96085 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */ = {isa = PBXBuildFile; fileRef = AB56F16B717343F8B20C534A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */; };
+		0DF4D8C1CEAB4E3AB75242DD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.h */ = {isa = PBXBuildFile; fileRef = B68CF995360F46B98E8E22EC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.h */; };
+		0E9330EE05F448DEB195BA93 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */ = {isa = PBXBuildFile; fileRef = 0219C01D09754394AB3FEF1C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */; };
+		1B17F96DBAE0470EADC62B59 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = 02F771A676FA479A949A4DB5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */; };
+		1E57E34732334E5CB6B5114B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */ = {isa = PBXBuildFile; fileRef = 4266C4C5C5774BF8B268BED7 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */; };
+		1F1B270275B14AF4B890ABD1 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXBuildFile; fileRef = A92058C329794FD89AB0FEEF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */; };
+		2269C014EB2C4062893391D1 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/versionparser.h */ = {isa = PBXBuildFile; fileRef = 7F2A12D683D14E36BBBCA75B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/versionparser.h */; };
+		2355EAEC071A4AF8802D22C8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXBuildFile; fileRef = CC01ED143BA74F02B456AD83 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */; };
+		35A96A675B934455AE4D43F5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.cpp */ = {isa = PBXBuildFile; fileRef = 212EBFCD3AA94CF8BFF186A9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.cpp */; };
+		3731786B722D4E229A711134 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */ = {isa = PBXBuildFile; fileRef = 9894D206C69B4063958A79E5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */; };
+		3D2BEA4B09E540EAADCAE321 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */ = {isa = PBXBuildFile; fileRef = E25C04015E69420E84F7D5E9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */; };
+		44697E0C27CB4EB4845D386B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.cpp */ = {isa = PBXBuildFile; fileRef = 65E5A59A2B2A4E638B5F7E85 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.cpp */; };
+		4804FD489D104691A2A5327B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsthelpers.h */ = {isa = PBXBuildFile; fileRef = 04983B1C509D48E194F67FA9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsthelpers.h */; };
+		490DDBA9C2544BF18C8DEDD8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */ = {isa = PBXBuildFile; fileRef = 4AAC2D768B1748A5A293B386 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */; };
+		52036891AB164BE6B1401809 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */ = {isa = PBXBuildFile; fileRef = BA7071FB6E4A4AB3A6B0E107 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */; };
+		556C3F5100B24E27AEA2829A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */ = {isa = PBXBuildFile; fileRef = F88D3B6095774B7BA592F284 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */; };
+		5EB01182A5124728AC4674B2 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.h */ = {isa = PBXBuildFile; fileRef = 2BE73345AD464B46B2E0B88D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.h */; };
+		5EFBA0BB86BF4EFAABED2ABB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXBuildFile; fileRef = 7E59B9A4AEC04D7F921457F8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */; };
+		6529DA8C092646A1A1ADAB1E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */ = {isa = PBXBuildFile; fileRef = 9F5B118273CA4D26B7645ED0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */; };
+		689DB504DA8D41FD923BFEA3 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */ = {isa = PBXBuildFile; fileRef = AF4A8E87037042C289A2FC91 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */; };
+		6E0C980360284E13AE9501CD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */ = {isa = PBXBuildFile; fileRef = A05105EE2D62427184E9BF18 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */; };
+		715A135E1B9D4A4C9EDE0A1C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */ = {isa = PBXBuildFile; fileRef = 1326034EB5244F03B74F4D99 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */; };
+		7494A8DCAA7F4FC28672F0B8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.cpp */ = {isa = PBXBuildFile; fileRef = 394268ED8F76445AA8D96603 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.cpp */; };
+		74B847F7733944ABB241757B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.h */ = {isa = PBXBuildFile; fileRef = 1D346730C071453D8153733C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.h */; };
+		77474D7A59B64A2E8644B42C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.h */ = {isa = PBXBuildFile; fileRef = F6D5922C52684236995F9587 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.h */; };
+		78C627A9D73D4DD184F2A0FC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.cpp */ = {isa = PBXBuildFile; fileRef = 3CF1C8236AE74FD693A76181 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.cpp */; };
+		7A03A65D1AFF4EAB80BFE713 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteventshelper.h */ = {isa = PBXBuildFile; fileRef = D4BBF3B83EB449CB851F380A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteventshelper.h */; };
+		7DCD8303BC6149E9B200D55E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXBuildFile; fileRef = 16F05B87810D41BF9BBC48EB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */; };
+		80A00F72ED9045CE8E674BBE /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.cpp */ = {isa = PBXBuildFile; fileRef = 2BBE217FDAF74462ACE59091 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.cpp */; };
+		869CFEF6AFF848BE878695FB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */ = {isa = PBXBuildFile; fileRef = AA3A51E9DA8B4DCCB9CDB6F3 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */; };
+		8F543F680D3B442591E24A1E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */ = {isa = PBXBuildFile; fileRef = B3788D868DBD4CF49FA7842B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */; };
+		91DEDC65A74A4B6EB30C6D97 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */ = {isa = PBXBuildFile; fileRef = CFF12687790849EDBCD4550A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */; };
+		92F4D58B62864A078B4B7B40 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.h */ = {isa = PBXBuildFile; fileRef = CBC84A37B42549179352E561 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.h */; };
+		9AABE9FB16684CFD9E9BDEC5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */ = {isa = PBXBuildFile; fileRef = 7DF3137D54CB41E487A9C1C9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */; };
+		9D70C5252DE94B8EAD60172C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */ = {isa = PBXBuildFile; fileRef = 49B0A7E45737412E8C7F08A0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */; };
+		9EB73092425C44C1B97F0568 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.h */ = {isa = PBXBuildFile; fileRef = B0C73803A9FA492D91AEA937 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.h */; };
+		A112C1ABAD764364A87AC749 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */ = {isa = PBXBuildFile; fileRef = 9CC2302999BE4EAAB78B953B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */; };
+		A1C6754276B643B9AE3EE0F4 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.h */ = {isa = PBXBuildFile; fileRef = E0B738F3469046D2B6641339 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.h */; };
+		A5B13C5765B14AC2B3464E08 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 04883974FDD84D33AE3C4448 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */; };
+		A7B8CC29DDC3409689626412 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXBuildFile; fileRef = 2D66E7E0329E48DCBA3D080D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */; };
+		AB0F9A66592D43F28F903643 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */ = {isa = PBXBuildFile; fileRef = 10B006B9884D4A3CB2401DFD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */; };
+		ACD485B3526345B8A7D06FBC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */ = {isa = PBXBuildFile; fileRef = 4C0D613D608E44EC98D91056 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */; };
+		AD19C62D797847289FBC5031 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.h */ = {isa = PBXBuildFile; fileRef = 04F149912BAC43C7AFC99404 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.h */; };
+		B0B2A1487CB7427ABA90095A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */ = {isa = PBXBuildFile; fileRef = 552F319D159642C4A37D9FFA /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */; };
+		B508A4295E1542738CAA605C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.cpp */ = {isa = PBXBuildFile; fileRef = FB550FA8E2364F1F9CD6CE1D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.cpp */; };
+		B600841CDB164F12B8898B3A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.h */ = {isa = PBXBuildFile; fileRef = 4EAACE8139584980AD6E4F35 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.h */; };
+		B64469DD78224A7B9E1FCD3F /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CCA92B03BB8A41EB98E6E443 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */; };
+		B699B195058749F4AE4405B6 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 455C12509E374A92BF9B9C12 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */; };
+		B6A1EECEE4554A3CB4E24327 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/uid.h */ = {isa = PBXBuildFile; fileRef = FEC7E70862DD4F359CFB49E5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/uid.h */; };
+		B8D8CC7C333843DCA8705246 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */ = {isa = PBXBuildFile; fileRef = E4823360071A48D7885EC8AB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */; };
+		BE15B301FF3045C093C9B3BD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.h */ = {isa = PBXBuildFile; fileRef = 3C151D3BFED146018B619D27 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.h */; };
+		C29FF147079C4ADDB668665E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/commoniids.cpp */ = {isa = PBXBuildFile; fileRef = E82D259FC8E34157976EB4FE /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/commoniids.cpp */; };
+		C3E3BE1EE58E463F8E9393EC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */ = {isa = PBXBuildFile; fileRef = BA688E48C50F48BCAC5BEA53 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */; };
+		C4059B73002041C587F8F2C0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */ = {isa = PBXBuildFile; fileRef = 68314F76D6F54F458C2BD01B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */; };
+		CAD32FA041B1452EBE8EECD4 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FAE05FEDC5B74054AF8730FD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */; };
+		CAE4E4B895E84EF0ACA92DB8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */ = {isa = PBXBuildFile; fileRef = F8B7689BF7E04C42BC2FAE98 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */; };
+		CC9C9862ADAD41888723CB26 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */ = {isa = PBXBuildFile; fileRef = 5AEE4A11FC424BE0BC7EB1B6 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */; };
+		D08DDF11B0D44867A8A2FAFF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */ = {isa = PBXBuildFile; fileRef = 9C2CD172C23D43199ED2B535 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */; };
+		D77A607C7B9443C487819460 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.cpp */ = {isa = PBXBuildFile; fileRef = 3B13AD5EBB6B4F769ED20A0A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.cpp */; };
+		E356781FF3FE4BFCA2DD845F /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */ = {isa = PBXBuildFile; fileRef = C6EA484BCCBE4BFAA9620BB8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */; };
+		E6D14FA4CA5943FBB0156154 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */ = {isa = PBXBuildFile; fileRef = 5C6440A93C1B4123A79F9B90 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */; };
+		EDB1D15F79684AB5824EA3CE /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */ = {isa = PBXBuildFile; fileRef = D746F029D8764463922F37AF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */; };
+		F7E97BE23E34409492BAD3FB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.h */ = {isa = PBXBuildFile; fileRef = 9F94C1E00B1C482A9501FCFF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.h */; };
+		F8BD2D9A17FF4444AE467993 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */ = {isa = PBXBuildFile; fileRef = 72D7AF7DBE60483FA547BDDB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */; };
+		F92E113ED8C04C14AE592E5A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = 2E4552C0EE774AEF856E4D88 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */; };
+		FC89098C905D45F38B67436C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */ = {isa = PBXBuildFile; fileRef = C4247C2E61CC4974BA58DF8C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */; };
+		FCD686BC51014C4084F9261D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker.h */ = {isa = PBXBuildFile; fileRef = 731024FB0E274170867E0F2C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker.h */; };
+		FCDF670D98524EFEA8A8ADE8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/optional.h */ = {isa = PBXBuildFile; fileRef = 8BE9A1AD2D39469EAD337A61 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/optional.h */; };
+		FFF576FCA05141CC96393E66 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXBuildFile; fileRef = 397EBA89290F441CA0AE47B8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		AE9F7249713E4876B45A3F7F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DA5D664D1458439B8BFA05A5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		028D41858B8A44789499702F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A522201CF60A4DD996DC3245;
+			remoteInfo = ZERO_CHECK;
+		};
+		0F5DCFBD56514C0D9CC31E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A522201CF60A4DD996DC3245;
+			remoteInfo = ZERO_CHECK;
+		};
+		3530C12E15344A118E2255F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC04B07CB444F76B77C7437;
+			remoteInfo = sdk_common;
+		};
+		90258EA0BADE4273A929184E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC04B07CB444F76B77C7437;
+			remoteInfo = sdk_common;
+		};
+		92D64C434D7B44E5B360D23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822DA44238E54FB8A9410034;
+			remoteInfo = sdk_hosting;
+		};
+		9E673D2E868248EAB7947428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC04B07CB444F76B77C7437;
+			remoteInfo = sdk_common;
+		};
+		B0F3C7462E7E48E2A88EDCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA92705A66804DC7B46BEC3F;
+			remoteInfo = sdk;
+		};
+		BD8BC963F5FE4037AB6C3659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A522201CF60A4DD996DC3245;
+			remoteInfo = ZERO_CHECK;
+		};
+		C5A6D31A89484EB5AD533557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AE106CAA2D4CE99D54DADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A522201CF60A4DD996DC3245;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0219C01D09754394AB3FEF1C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstcomponentbase.cpp; path = source/vst/vstcomponentbase.cpp; sourceTree = SOURCE_ROOT; };
+		0298FEC9C4844AEEB0E64087 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetfile.h; path = source/vst/vstpresetfile.h; sourceTree = SOURCE_ROOT; };
+		02F771A676FA479A949A4DB5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteditcontroller.h; path = source/vst/vsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		04883974FDD84D33AE3C4448 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		04983B1C509D48E194F67FA9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsthelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsthelpers.h; path = source/vst/vsthelpers.h; sourceTree = SOURCE_ROOT; };
+		04F149912BAC43C7AFC99404 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = module.h; path = source/vst/hosting/module.h; sourceTree = SOURCE_ROOT; };
+		10B006B9884D4A3CB2401DFD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = threadchecker_mac.mm; path = source/common/threadchecker_mac.mm; sourceTree = SOURCE_ROOT; };
+		1326034EB5244F03B74F4D99 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstaudioeffect.cpp; path = source/vst/vstaudioeffect.cpp; sourceTree = SOURCE_ROOT; };
+		16F05B87810D41BF9BBC48EB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstinitiids.cpp; path = source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		1B9694E5780B4237A31D6868 /* sdk */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D346730C071453D8153733C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = testing.h; path = source/vst/utility/testing.h; sourceTree = SOURCE_ROOT; };
+		212EBFCD3AA94CF8BFF186A9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstbus.cpp; path = source/vst/vstbus.cpp; sourceTree = SOURCE_ROOT; };
+		2BBE217FDAF74462ACE59091 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginview.cpp; path = source/common/pluginview.cpp; sourceTree = SOURCE_ROOT; };
+		2BE73345AD464B46B2E0B88D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstcomponent.h; path = source/vst/vstcomponent.h; sourceTree = SOURCE_ROOT; };
+		2D66E7E0329E48DCBA3D080D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringconvert.h; path = source/vst/utility/stringconvert.h; sourceTree = SOURCE_ROOT; };
+		2E4552C0EE774AEF856E4D88 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginterfacesupport.h; path = source/vst/hosting/pluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+		2E726DCBAD164A48A63E0557 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2F6D706795664ABDAAF06B98 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = systemclipboard.h; path = source/common/systemclipboard.h; sourceTree = SOURCE_ROOT; };
+		356CD5EE4A0F404C9101CC7C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = audiobuffers.h; path = source/vst/utility/audiobuffers.h; sourceTree = SOURCE_ROOT; };
+		394268ED8F76445AA8D96603 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = openurl.cpp; path = source/common/openurl.cpp; sourceTree = SOURCE_ROOT; };
+		397EBA89290F441CA0AE47B8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstinitiids.cpp; path = source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		3B13AD5EBB6B4F769ED20A0A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moduleinit.cpp; path = source/main/moduleinit.cpp; sourceTree = SOURCE_ROOT; };
+		3C151D3BFED146018B619D27 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstbus.h; path = source/vst/vstbus.h; sourceTree = SOURCE_ROOT; };
+		3CF1C8236AE74FD693A76181 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = module.cpp; path = source/vst/hosting/module.cpp; sourceTree = SOURCE_ROOT; };
+		4266C4C5C5774BF8B268BED7 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstrepresentation.cpp; path = source/vst/vstrepresentation.cpp; sourceTree = SOURCE_ROOT; };
+		455C12509E374A92BF9B9C12 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vsteditcontroller.cpp; path = source/vst/vsteditcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		49B0A7E45737412E8C7F08A0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstnoteexpressiontypes.h; path = source/vst/vstnoteexpressiontypes.h; sourceTree = SOURCE_ROOT; };
+		4AAC2D768B1748A5A293B386 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_linux.cpp; path = source/common/threadchecker_linux.cpp; sourceTree = SOURCE_ROOT; };
+		4C0D613D608E44EC98D91056 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processdataslicer.h; path = source/vst/utility/processdataslicer.h; sourceTree = SOURCE_ROOT; };
+		4EAACE8139584980AD6E4F35 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = moduleinit.h; path = source/main/moduleinit.h; sourceTree = SOURCE_ROOT; };
+		552F319D159642C4A37D9FFA /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstaudioeffect.h; path = source/vst/vstaudioeffect.h; sourceTree = SOURCE_ROOT; };
+		5AEE4A11FC424BE0BC7EB1B6 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostclasses.cpp; path = source/vst/hosting/hostclasses.cpp; sourceTree = SOURCE_ROOT; };
+		5C6440A93C1B4123A79F9B90 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchanges.cpp; path = source/vst/hosting/parameterchanges.cpp; sourceTree = SOURCE_ROOT; };
+		65E5A59A2B2A4E638B5F7E85 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstparameters.cpp; path = source/vst/vstparameters.cpp; sourceTree = SOURCE_ROOT; };
+		68314F76D6F54F458C2BD01B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = connectionproxy.h; path = source/vst/hosting/connectionproxy.h; sourceTree = SOURCE_ROOT; };
+		6D9798DE92F747CE8D18EFE2 /* sdk_hosting */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_hosting.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D7AF7DBE60483FA547BDDB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginterfacesupport.cpp; path = source/vst/hosting/pluginterfacesupport.cpp; sourceTree = SOURCE_ROOT; };
+		731024FB0E274170867E0F2C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = threadchecker.h; path = source/common/threadchecker.h; sourceTree = SOURCE_ROOT; };
+		7DF3137D54CB41E487A9C1C9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlist.h; path = source/vst/hosting/eventlist.h; sourceTree = SOURCE_ROOT; };
+		7E59B9A4AEC04D7F921457F8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringconvert.cpp; path = source/vst/utility/stringconvert.cpp; sourceTree = SOURCE_ROOT; };
+		7F2A12D683D14E36BBBCA75B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/versionparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = versionparser.h; path = source/vst/utility/versionparser.h; sourceTree = SOURCE_ROOT; };
+		8BE9A1AD2D39469EAD337A61 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/optional.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = optional.h; path = source/vst/utility/optional.h; sourceTree = SOURCE_ROOT; };
+		9894D206C69B4063958A79E5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ringbuffer.h; path = source/vst/utility/ringbuffer.h; sourceTree = SOURCE_ROOT; };
+		9C2CD172C23D43199ED2B535 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginfactory_constexpr.h; path = source/main/pluginfactory_constexpr.h; sourceTree = SOURCE_ROOT; };
+		9CC2302999BE4EAAB78B953B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstcomponentbase.h; path = source/vst/vstcomponentbase.h; sourceTree = SOURCE_ROOT; };
+		9F5B118273CA4D26B7645ED0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vst2persistence.h; path = source/vst/utility/vst2persistence.h; sourceTree = SOURCE_ROOT; };
+		9F94C1E00B1C482A9501FCFF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processdata.h; path = source/vst/hosting/processdata.h; sourceTree = SOURCE_ROOT; };
+		A05105EE2D62427184E9BF18 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstbypassprocessor.h; path = source/vst/vstbypassprocessor.h; sourceTree = SOURCE_ROOT; };
+		A92058C329794FD89AB0FEEF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringconvert.cpp; path = source/vst/utility/stringconvert.cpp; sourceTree = SOURCE_ROOT; };
+		AA3A51E9DA8B4DCCB9CDB6F3 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstcomponent.cpp; path = source/vst/vstcomponent.cpp; sourceTree = SOURCE_ROOT; };
+		AB56F16B717343F8B20C534A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstpresetfile.cpp; path = source/vst/vstpresetfile.cpp; sourceTree = SOURCE_ROOT; };
+		AF4A8E87037042C289A2FC91 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = systemclipboard_mac.mm; path = source/common/systemclipboard_mac.mm; sourceTree = SOURCE_ROOT; };
+		B0C73803A9FA492D91AEA937 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginfactory.h; path = source/main/pluginfactory.h; sourceTree = SOURCE_ROOT; };
+		B3788D868DBD4CF49FA7842B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstnoteexpressiontypes.cpp; path = source/vst/vstnoteexpressiontypes.cpp; sourceTree = SOURCE_ROOT; };
+		B68CF995360F46B98E8E22EC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstparameters.h; path = source/vst/vstparameters.h; sourceTree = SOURCE_ROOT; };
+		BA688E48C50F48BCAC5BEA53 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampleaccurate.h; path = source/vst/utility/sampleaccurate.h; sourceTree = SOURCE_ROOT; };
+		BA7071FB6E4A4AB3A6B0E107 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextrequirements.h; path = source/vst/utility/processcontextrequirements.h; sourceTree = SOURCE_ROOT; };
+		C0793FF9D10B418997FCB17E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vst2persistence.cpp; path = source/vst/utility/vst2persistence.cpp; sourceTree = SOURCE_ROOT; };
+		C4247C2E61CC4974BA58DF8C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rttransfer.h; path = source/vst/utility/rttransfer.h; sourceTree = SOURCE_ROOT; };
+		C6EA484BCCBE4BFAA9620BB8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = systemclipboard_win32.cpp; path = source/common/systemclipboard_win32.cpp; sourceTree = SOURCE_ROOT; };
+		CBC84A37B42549179352E561 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstrepresentation.h; path = source/vst/vstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		CC01ED143BA74F02B456AD83 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringconvert.h; path = source/vst/utility/stringconvert.h; sourceTree = SOURCE_ROOT; };
+		CCA92B03BB8A41EB98E6E443 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CFF12687790849EDBCD4550A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostclasses.h; path = source/vst/hosting/hostclasses.h; sourceTree = SOURCE_ROOT; };
+		D0A8BA37622D4DAEA415E796 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginfactory.cpp; path = source/main/pluginfactory.cpp; sourceTree = SOURCE_ROOT; };
+		D23CB6E2A0244F8BAE78FB32 /* sdk_common */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BBF3B83EB449CB851F380A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteventshelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteventshelper.h; path = source/vst/vsteventshelper.h; sourceTree = SOURCE_ROOT; };
+		D746F029D8764463922F37AF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchanges.h; path = source/vst/hosting/parameterchanges.h; sourceTree = SOURCE_ROOT; };
+		E0B738F3469046D2B6641339 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginview.h; path = source/common/pluginview.h; sourceTree = SOURCE_ROOT; };
+		E25C04015E69420E84F7D5E9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processdata.cpp; path = source/vst/hosting/processdata.cpp; sourceTree = SOURCE_ROOT; };
+		E4823360071A48D7885EC8AB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlist.cpp; path = source/vst/hosting/eventlist.cpp; sourceTree = SOURCE_ROOT; };
+		E82D259FC8E34157976EB4FE /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/commoniids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = commoniids.cpp; path = source/common/commoniids.cpp; sourceTree = SOURCE_ROOT; };
+		F6D5922C52684236995F9587 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = openurl.h; path = source/common/openurl.h; sourceTree = SOURCE_ROOT; };
+		F88D3B6095774B7BA592F284 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = connectionproxy.cpp; path = source/vst/hosting/connectionproxy.cpp; sourceTree = SOURCE_ROOT; };
+		F8B7689BF7E04C42BC2FAE98 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_win32.cpp; path = source/common/threadchecker_win32.cpp; sourceTree = SOURCE_ROOT; };
+		FAE05FEDC5B74054AF8730FD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FB550FA8E2364F1F9CD6CE1D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = testing.cpp; path = source/vst/utility/testing.cpp; sourceTree = SOURCE_ROOT; };
+		FEC7E70862DD4F359CFB49E5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/uid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uid.h; path = source/vst/utility/uid.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D8926650FF41C0888D3B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DB3F19AA794B2B84A35542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1910187110F45089A4664FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EB154455D04F259CF9946E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E82D259FC8E34157976EB4FE /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/commoniids.cpp */,
+				394268ED8F76445AA8D96603 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.cpp */,
+				AF4A8E87037042C289A2FC91 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */,
+				C6EA484BCCBE4BFAA9620BB8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */,
+				4AAC2D768B1748A5A293B386 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */,
+				10B006B9884D4A3CB2401DFD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */,
+				F8B7689BF7E04C42BC2FAE98 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */,
+				AB56F16B717343F8B20C534A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1A1F37B910C64928A9CD6F84 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				68314F76D6F54F458C2BD01B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */,
+				7DF3137D54CB41E487A9C1C9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */,
+				CFF12687790849EDBCD4550A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */,
+				04F149912BAC43C7AFC99404 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.h */,
+				D746F029D8764463922F37AF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */,
+				2E4552C0EE774AEF856E4D88 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */,
+				9F94C1E00B1C482A9501FCFF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.h */,
+				8BE9A1AD2D39469EAD337A61 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/optional.h */,
+				CC01ED143BA74F02B456AD83 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */,
+				FEC7E70862DD4F359CFB49E5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/uid.h */,
+				7F2A12D683D14E36BBBCA75B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/versionparser.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		24B3431227834C1D93FD239F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5922C52684236995F9587 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.h */,
+				2F6D706795664ABDAAF06B98 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard.h */,
+				731024FB0E274170867E0F2C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker.h */,
+				0298FEC9C4844AEEB0E64087 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		29F2BCE16856413989D4C6CD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE217FDAF74462ACE59091 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.cpp */,
+				3B13AD5EBB6B4F769ED20A0A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.cpp */,
+				D0A8BA37622D4DAEA415E796 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.cpp */,
+				7E59B9A4AEC04D7F921457F8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				FB550FA8E2364F1F9CD6CE1D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.cpp */,
+				C0793FF9D10B418997FCB17E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */,
+				1326034EB5244F03B74F4D99 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */,
+				212EBFCD3AA94CF8BFF186A9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.cpp */,
+				AA3A51E9DA8B4DCCB9CDB6F3 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */,
+				0219C01D09754394AB3FEF1C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */,
+				455C12509E374A92BF9B9C12 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */,
+				16F05B87810D41BF9BBC48EB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+				B3788D868DBD4CF49FA7842B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */,
+				65E5A59A2B2A4E638B5F7E85 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.cpp */,
+				4266C4C5C5774BF8B268BED7 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		66A9B4C81B6B4A85A1DA1062 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D24EEAD4D24742D2A9E7E5DE /* CMake Rules */,
+				2E726DCBAD164A48A63E0557 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6B5DBEE8016F4CFAB4F889D0 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				29F2BCE16856413989D4C6CD /* Source Files */,
+				DCC4C3E623C348AEAC42BFEB /* Header Files */,
+				FAE05FEDC5B74054AF8730FD /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk;
+			sourceTree = "<group>";
+		};
+		84DC88BD81CB4019A3074AFB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F88D3B6095774B7BA592F284 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */,
+				E4823360071A48D7885EC8AB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */,
+				5AEE4A11FC424BE0BC7EB1B6 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */,
+				3CF1C8236AE74FD693A76181 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.cpp */,
+				5C6440A93C1B4123A79F9B90 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */,
+				72D7AF7DBE60483FA547BDDB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */,
+				E25C04015E69420E84F7D5E9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */,
+				A92058C329794FD89AB0FEEF /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				397EBA89290F441CA0AE47B8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8EB5751C9C344261B5429C55 /* sdk_common */ = {
+			isa = PBXGroup;
+			children = (
+				16EB154455D04F259CF9946E /* Source Files */,
+				24B3431227834C1D93FD239F /* Header Files */,
+				CCA92B03BB8A41EB98E6E443 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk_common;
+			sourceTree = "<group>";
+		};
+		B7B4BA2043D24E6D9A3D29B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9694E5780B4237A31D6868 /* sdk */,
+				D23CB6E2A0244F8BAE78FB32 /* sdk_common */,
+				6D9798DE92F747CE8D18EFE2 /* sdk_hosting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F7637A249C46468A1197B3 = {
+			isa = PBXGroup;
+			children = (
+				DE1DFD3F045848F189ACD8CC /* Libraries */,
+				66A9B4C81B6B4A85A1DA1062 /* ALL_BUILD */,
+				B7B4BA2043D24E6D9A3D29B6 /* Products */,
+				E4333F4187B74C9D8EDC2554 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B8D72DA7194DDAAC735CB9 /* sdk_hosting */ = {
+			isa = PBXGroup;
+			children = (
+				84DC88BD81CB4019A3074AFB /* Source Files */,
+				1A1F37B910C64928A9CD6F84 /* Header Files */,
+				04883974FDD84D33AE3C4448 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk_hosting;
+			sourceTree = "<group>";
+		};
+		D24EEAD4D24742D2A9E7E5DE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DCC4C3E623C348AEAC42BFEB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0B738F3469046D2B6641339 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.h */,
+				4EAACE8139584980AD6E4F35 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.h */,
+				B0C73803A9FA492D91AEA937 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.h */,
+				9C2CD172C23D43199ED2B535 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */,
+				356CD5EE4A0F404C9101CC7C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */,
+				BA7071FB6E4A4AB3A6B0E107 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */,
+				4C0D613D608E44EC98D91056 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */,
+				9894D206C69B4063958A79E5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */,
+				C4247C2E61CC4974BA58DF8C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */,
+				BA688E48C50F48BCAC5BEA53 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */,
+				2D66E7E0329E48DCBA3D080D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */,
+				1D346730C071453D8153733C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.h */,
+				9F5B118273CA4D26B7645ED0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */,
+				552F319D159642C4A37D9FFA /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */,
+				3C151D3BFED146018B619D27 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.h */,
+				A05105EE2D62427184E9BF18 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */,
+				2BE73345AD464B46B2E0B88D /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.h */,
+				9CC2302999BE4EAAB78B953B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */,
+				02F771A676FA479A949A4DB5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */,
+				D4BBF3B83EB449CB851F380A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteventshelper.h */,
+				04983B1C509D48E194F67FA9 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsthelpers.h */,
+				49B0A7E45737412E8C7F08A0 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */,
+				B68CF995360F46B98E8E22EC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.h */,
+				CBC84A37B42549179352E561 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DE1DFD3F045848F189ACD8CC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8EB5751C9C344261B5429C55 /* sdk_common */,
+				6B5DBEE8016F4CFAB4F889D0 /* sdk */,
+				D0B8D72DA7194DDAAC735CB9 /* sdk_hosting */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		E4333F4187B74C9D8EDC2554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC04B07CB444F76B77C7437 /* sdk_common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245354E97D474419BCB38AB2 /* Build configuration list for PBXNativeTarget "sdk_common" */;
+			buildPhases = (
+				58CD25BBABEE4BC0BD9F17CE /* Sources */,
+				B5DB3F19AA794B2B84A35542 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E9FA0064E03482B90F1490E /* PBXTargetDependency */,
+			);
+			name = sdk_common;
+			productName = sdk_common;
+			productReference = D23CB6E2A0244F8BAE78FB32 /* sdk_common */;
+			productType = "com.apple.product-type.library.static";
+		};
+		822DA44238E54FB8A9410034 /* sdk_hosting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D64FE3714FB4B89AFAA5D99 /* Build configuration list for PBXNativeTarget "sdk_hosting" */;
+			buildPhases = (
+				ADBD0E74916E40BA867C1D2B /* Sources */,
+				C1910187110F45089A4664FF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D4E9CD914341DD94744FE9 /* PBXTargetDependency */,
+				928214DFFD5B43FDB5914596 /* PBXTargetDependency */,
+			);
+			name = sdk_hosting;
+			productName = sdk_hosting;
+			productReference = 6D9798DE92F747CE8D18EFE2 /* sdk_hosting */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA92705A66804DC7B46BEC3F /* sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12362E1AFC34E768323D26E /* Build configuration list for PBXNativeTarget "sdk" */;
+			buildPhases = (
+				A881BC7B73134AF3A6E29D23 /* Sources */,
+				94D8926650FF41C0888D3B60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D7D8BEB7B749EF8D1088D8 /* PBXTargetDependency */,
+				60F3577F95CD4E87878B117F /* PBXTargetDependency */,
+			);
+			name = sdk;
+			productName = sdk;
+			productReference = 1B9694E5780B4237A31D6868 /* sdk */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AE106CAA2D4CE99D54DADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = E559629B4CB243A2913C8DF7 /* Build configuration list for PBXProject "smtg_public_sdk" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DA5D664D1458439B8BFA05A5 /* Debug */,
+				AE9F7249713E4876B45A3F7F /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C7F7637A249C46468A1197B3;
+			projectDirPath = /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk;
+			projectRoot = "";
+			targets = (
+				9883693689B344719BAF07C4 /* ALL_BUILD */,
+				A522201CF60A4DD996DC3245 /* ZERO_CHECK */,
+				DA92705A66804DC7B46BEC3F /* sdk */,
+				2EC04B07CB444F76B77C7437 /* sdk_common */,
+				822DA44238E54FB8A9410034 /* sdk_hosting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AA220B4F4697AAE1510E776 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk
+  make -f /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk
+  make -f /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F969F5EFEF5E25DE7718BE17 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/vst3sdk/public.sdk
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58CD25BBABEE4BC0BD9F17CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29FF147079C4ADDB668665E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/commoniids.cpp */,
+				7494A8DCAA7F4FC28672F0B8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/openurl.cpp */,
+				689DB504DA8D41FD923BFEA3 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */,
+				E356781FF3FE4BFCA2DD845F /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */,
+				490DDBA9C2544BF18C8DEDD8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */,
+				AB0F9A66592D43F28F903643 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */,
+				CAE4E4B895E84EF0ACA92DB8 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */,
+				0A7606975F84492384A96085 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A881BC7B73134AF3A6E29D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A00F72ED9045CE8E674BBE /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/common/pluginview.cpp */,
+				D77A607C7B9443C487819460 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.cpp */,
+				07D95CCB0E164208B3CF055C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/main/pluginfactory.cpp */,
+				5EFBA0BB86BF4EFAABED2ABB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				B508A4295E1542738CAA605C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.cpp */,
+				09421B37CE4F4F58841E8308 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */,
+				715A135E1B9D4A4C9EDE0A1C /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */,
+				35A96A675B934455AE4D43F5 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstbus.cpp */,
+				869CFEF6AFF848BE878695FB /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */,
+				0E9330EE05F448DEB195BA93 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */,
+				B699B195058749F4AE4405B6 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */,
+				7DCD8303BC6149E9B200D55E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+				8F543F680D3B442591E24A1E /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */,
+				44697E0C27CB4EB4845D386B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.cpp */,
+				1E57E34732334E5CB6B5114B /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBD0E74916E40BA867C1D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556C3F5100B24E27AEA2829A /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */,
+				B8D8CC7C333843DCA8705246 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */,
+				CC9C9862ADAD41888723CB26 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */,
+				78C627A9D73D4DD184F2A0FC /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.cpp */,
+				E6D14FA4CA5943FBB0156154 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */,
+				F8BD2D9A17FF4444AE467993 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */,
+				3D2BEA4B09E540EAADCAE321 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */,
+				1F1B270275B14AF4B890ABD1 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				FFF576FCA05141CC96393E66 /* /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EC12CFFFA14FBDB9DEEEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822DA44238E54FB8A9410034 /* sdk_hosting */;
+			targetProxy = 92D64C434D7B44E5B360D23D /* PBXContainerItemProxy */;
+		};
+		2651DB8A412147EA8023A836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EC04B07CB444F76B77C7437 /* sdk_common */;
+			targetProxy = 9E673D2E868248EAB7947428 /* PBXContainerItemProxy */;
+		};
+		58D7D8BEB7B749EF8D1088D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EC04B07CB444F76B77C7437 /* sdk_common */;
+			targetProxy = 90258EA0BADE4273A929184E /* PBXContainerItemProxy */;
+		};
+		60F3577F95CD4E87878B117F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A522201CF60A4DD996DC3245 /* ZERO_CHECK */;
+			targetProxy = 028D41858B8A44789499702F /* PBXContainerItemProxy */;
+		};
+		7F152F8E6E2B42AAA66A1686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA92705A66804DC7B46BEC3F /* sdk */;
+			targetProxy = B0F3C7462E7E48E2A88EDCEA /* PBXContainerItemProxy */;
+		};
+		928214DFFD5B43FDB5914596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A522201CF60A4DD996DC3245 /* ZERO_CHECK */;
+			targetProxy = 0F5DCFBD56514C0D9CC31E3A /* PBXContainerItemProxy */;
+		};
+		9E9FA0064E03482B90F1490E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A522201CF60A4DD996DC3245 /* ZERO_CHECK */;
+			targetProxy = BD8BC963F5FE4037AB6C3659 /* PBXContainerItemProxy */;
+		};
+		A988318BEBFD4C18B0AE0CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A522201CF60A4DD996DC3245 /* ZERO_CHECK */;
+			targetProxy = C5A6D31A89484EB5AD533557 /* PBXContainerItemProxy */;
+		};
+		F8D4E9CD914341DD94744FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EC04B07CB444F76B77C7437 /* sdk_common */;
+			targetProxy = 3530C12E15344A118E2255F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F3221B64DF489E8F23E374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/isaac/Desktop/VST_SDK/vst3sdk,/Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/base/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_hosting;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build/sdk_hosting.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1DF15141D7854F699C5B574E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build";
+			};
+			name = Debug;
+		};
+		2278E74597DA4022B2C66A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/isaac/Desktop/VST_SDK/vst3sdk,/Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/base/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_hosting;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build/sdk_hosting.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		48DEB664EBE2433D9ED7526F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build";
+			};
+			name = Release;
+		};
+		84D895341DE54565AEBCAC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/isaac/Desktop/VST_SDK/vst3sdk,/Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/base/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build/sdk.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9CAA216FD2E14386BFBDA314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/isaac/Desktop/VST_SDK/vst3sdk,/Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/base/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build/sdk.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AEF7CFE605D2453EB5164363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/isaac/Desktop/VST_SDK/vst3sdk,/Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/base/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_common;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build/sdk_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BDCF9C12D0D8436D9125DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D26423770733461794639B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E32AB60009584007920C7BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F20CE6D713A447E0BC9BB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/isaac/Desktop/VST_SDK/vst3sdk,/Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/base/..,/Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_common;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/build/build/sdk_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F6B540F3556D4651AD5A456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B1E84163D14848B0D39B0F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26423770733461794639B02 /* Debug */,
+				F6B540F3556D4651AD5A456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		245354E97D474419BCB38AB2 /* Build configuration list for PBXNativeTarget "sdk_common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF7CFE605D2453EB5164363 /* Debug */,
+				F20CE6D713A447E0BC9BB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3ACD67D8F7384663947441A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCF9C12D0D8436D9125DB88 /* Debug */,
+				E32AB60009584007920C7BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D64FE3714FB4B89AFAA5D99 /* Build configuration list for PBXNativeTarget "sdk_hosting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2278E74597DA4022B2C66A0D /* Debug */,
+				04F3221B64DF489E8F23E374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E12362E1AFC34E768323D26E /* Build configuration list for PBXNativeTarget "sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D895341DE54565AEBCAC97 /* Debug */,
+				9CAA216FD2E14386BFBDA314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E559629B4CB243A2913C8DF7 /* Build configuration list for PBXProject "smtg_public_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF15141D7854F699C5B574E /* Debug */,
+				48DEB664EBE2433D9ED7526F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AE106CAA2D4CE99D54DADB /* Project object */;
+}

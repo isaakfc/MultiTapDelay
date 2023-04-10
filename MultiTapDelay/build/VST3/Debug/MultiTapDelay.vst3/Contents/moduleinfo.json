@@ -1,0 +1,51 @@
+{
+  "Name": "MultiTapDelay",
+  "Version": "1.0.0.0",
+  "Factory Info": {
+    "Vendor": "Semblance",
+    "URL": "",
+    "E-Mail": "mailto:",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "77975A13F5B35D5691DE70488BF562E2",
+      "Category": "Audio Module Class",
+      "Name": "MultiTapDelay",
+      "Vendor": "Semblance",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.7",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+        {
+          "Scale Factor": 2,
+          "Path": "Contents/Resources/Snapshots/77975A13F5B35D5691DE70488BF562E2_snapshot_2.0x.png",
+        },
+        {
+          "Scale Factor": 1,
+          "Path": "Contents/Resources/Snapshots/77975A13F5B35D5691DE70488BF562E2_snapshot.png",
+        },
+      ],
+    },
+    {
+      "CID": "26B78B002A7F5EFB85470D921B9D576A",
+      "Category": "Component Controller Class",
+      "Name": "MultiTapDelayController",
+      "Vendor": "Semblance",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.7",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}
