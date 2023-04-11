@@ -9,7 +9,6 @@
 
 #include "public.sdk/source/vst/vstaudioeffect.h"
 #include "RingBuffer.hpp"
-#include "SincInterpolator.h"
 #include "PeakFilt.hpp"
 
 
@@ -51,6 +50,8 @@ public:
 
 	/** Here we go...the process call */
 	Steinberg::tresult PLUGIN_API process (Steinberg::Vst::ProcessData& data) SMTG_OVERRIDE;
+    
+    void handleParameterChanges (Steinberg::Vst::IParameterChanges* changes);
 		
 	/** For persistence */
 	Steinberg::tresult PLUGIN_API setState (Steinberg::IBStream* state) SMTG_OVERRIDE;

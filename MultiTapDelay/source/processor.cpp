@@ -75,13 +75,11 @@ tresult PLUGIN_API MultiTapDelayProcessor::setActive (TBool state)
     if(state)
     {
         rbufferVec.clear();
-//        sincInterVec.clear();
         pFiltVec.clear();
         
         for (int i = 0; i < numChannels; i++)
         {
             rbufferVec.push_back(RingBuffer(6 * processSetup.sampleRate));
-//            sincInterVec.push_back(SincInterpolator(0.1, processSetup.sampleRate, 0.16));
             pFiltVec.push_back(PeakFiltBoost(processSetup.sampleRate, 100, mPFiltGain, 100));
             
         }
@@ -97,22 +95,19 @@ tresult PLUGIN_API MultiTapDelayProcessor::setActive (TBool state)
 	return AudioEffect::setActive (state);
 }
 
- 
 
-//------------------------------------------------------------------------
-tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
+
+void MultiTapDelayProcessor::handleParameterChanges (Steinberg::Vst::IParameterChanges* changes)
 {
-	//--- First : Read inputs parameter changes-----------
-
-    if (data.inputParameterChanges)
+    if (changes)
     {
         // for each parameter defined by its ID
-        int32 numParamsChanged = data.inputParameterChanges->getParameterCount ();
+        int32 numParamsChanged = changes->getParameterCount ();
         for (int32 index = 0; index < numParamsChanged; index++)
         {
             // for this parameter we could iterate the list of value changes (could 1 per audio block or more!)
             // in this example we get only the last value (getPointCount - 1)
-            Vst::IParamValueQueue* paramQueue = data.inputParameterChanges->getParameterData (index);
+            Vst::IParamValueQueue* paramQueue = changes->getParameterData (index);
             if (paramQueue)
             {
                 Vst::ParamValue value;
@@ -132,8 +127,6 @@ tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
                             delayValues[2] = mDelay1Time * 1.25;
                             delayValues[3] = mDelay1Time * 1.5;
                             delayValues[4] = mDelay1Time * 2;
-//                            sincInterVec.at(0).setValue(mDelay1Time);
-//                            sincInterVec.at(1).setValue(mDelay1Time);
                             break;
                     case MultiTapParams::kParamTap2Time:
                         if (paramQueue->getPoint (numPoints - 1, sampleOffset, value) == kResultTrue)
@@ -193,12 +186,30 @@ tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
                             break;
                     case MultiTapParams::kParamTapeEQLevel:
                         if (paramQueue->getPoint (numPoints - 1, sampleOffset, value) == kResultTrue)
-                            mPFiltGain =  value*10.0;
+                            mPFiltGain =  value * 10.0;
+                            pFiltVec.at(0).setCoefficients(processSetup.sampleRate, 100, mPFiltGain, 100);
+                            pFiltVec.at(1).setCoefficients(processSetup.sampleRate, 100, mPFiltGain, 100);
                             break;
                 }
             }
         }
     }
+    
+}
+
+
+ 
+
+//------------------------------------------------------------------------
+tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
+{
+	//--- First : Read inputs parameter changes-----------
+
+
+    
+    
+    handleParameterChanges (data.inputParameterChanges);
+    
     //-- Flush case: we only need to update parameter, noprocessing possible
     if (data.numInputs == 0 || data.numSamples == 0)
         return kResultOk;
@@ -228,8 +239,7 @@ tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
         // for each sample in this channel
         while (--samples >= 0)
         {
-//            double t = (sampleCount + sincInterVec.at(i).getBufferPosition()) / processSetup.sampleRate;
-//            double smoothedValue = sincInterVec.at(i).getValue(t);
+
             // apply gain
             double delay1InSamples = processSetup.sampleRate * (mDelay1Time / 1000);
             double delay2InSamples = processSetup.sampleRate * (delayValues[mDelay2Time] / 1000);
@@ -249,7 +259,7 @@ tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
             sampleCount++;
         }
         
-//        sincInterVec.at(i).incrementBufferPosition(data.numSamples);
+
     }
             
           

@@ -28,7 +28,6 @@ dependencies: \
   /Users/isaac/Desktop/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h \
   /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h \
   /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/RingBuffer.hpp \
-  /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/SincInterpolator.h \
   /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/PeakFilt.hpp \
   /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/controller.h \
   /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.h \

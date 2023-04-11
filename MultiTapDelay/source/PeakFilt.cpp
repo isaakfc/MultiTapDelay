@@ -5,16 +5,18 @@
 //  Created by Isaac Faraz-Chandler on 08/04/2023.
 //
 
+
 #include "PeakFilt.hpp"
+#include <iostream>
 
 
-PeakFiltBoost::PeakFiltBoost(int sampleRate, double cutoffFrequency, double gain, double bandWidth)
+PeakFiltBoost::PeakFiltBoost(double sampleRate, double cutoffFrequency, double gain, double bandWidth)
 {
     setCoefficients(sampleRate, cutoffFrequency, gain, bandWidth);
 }
 
 
-void PeakFiltBoost::setCoefficients(int sampleRate, double cutoffFrequency, double gain, double bandWidth)
+void PeakFiltBoost::setCoefficients(double sampleRate, double cutoffFrequency, double gain, double bandWidth)
 {
     mWc = (2 * cutoffFrequency) / sampleRate;
     mWb = (2 * bandWidth) / sampleRate;
@@ -31,5 +33,6 @@ float PeakFiltBoost::process(float input)
     float apY = -c * xhNew + d*(1-c)*x1 + x2;
     x2 = x1;
     x1 = xhNew;
-    return 0.5 * H0 * (x1 - apY) + x1;
+    return 0.5 * H0 * (input - apY) + input;
 }
+

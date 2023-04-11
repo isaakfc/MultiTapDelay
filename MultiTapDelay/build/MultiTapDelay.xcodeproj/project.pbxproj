@@ -536,7 +536,6 @@
 		666456AA1D2F4B19A2F6C5B0 /* controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controller.cpp; path = source/controller.cpp; sourceTree = SOURCE_ROOT; };
 		66871691E6A44339B31AF146 /* SMTG_GenerateSourceGroups.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SMTG_GenerateSourceGroups.cmake; path = /Users/isaac/Desktop/VST_SDK/vst3sdk/cmake/modules/SMTG_GenerateSourceGroups.cmake; sourceTree = "<absolute>"; };
 		67A74C05DEAB40D98F0D8C46 /* SMTG_AddAAXLibrary.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SMTG_AddAAXLibrary.cmake; path = /Users/isaac/Desktop/VST_SDK/vst3sdk/cmake/modules/SMTG_AddAAXLibrary.cmake; sourceTree = "<absolute>"; };
-		6A89637629E0BE9600A0FFC1 /* SincInterpolator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SincInterpolator.h; path = source/SincInterpolator.h; sourceTree = "<group>"; };
 		6A89637829E1C00200A0FFC1 /* PeakFilt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PeakFilt.cpp; path = source/PeakFilt.cpp; sourceTree = "<group>"; };
 		6A89637929E1C00200A0FFC1 /* PeakFilt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PeakFilt.hpp; path = source/PeakFilt.hpp; sourceTree = "<group>"; };
 		6AA5C56D29DDC525004789F5 /* RingBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RingBuffer.cpp; path = source/RingBuffer.cpp; sourceTree = "<group>"; };
@@ -1093,7 +1092,6 @@
 				F55A5E9845914A05A59482F7 /* version.h */,
 				6AA5C56E29DDC525004789F5 /* RingBuffer.hpp */,
 				6AF1275229DF3C9800DC2C32 /* Utils.hpp */,
-				6A89637629E0BE9600A0FFC1 /* SincInterpolator.h */,
 				6A89637929E1C00200A0FFC1 /* PeakFilt.hpp */,
 			);
 			name = "Header Files";

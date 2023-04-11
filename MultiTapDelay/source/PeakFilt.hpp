@@ -12,15 +12,15 @@ class PeakFiltBoost
 {
     
 public:
-    PeakFiltBoost(int sampleRate, double cutoffFrequency, double gain, double bandWidth);
+    PeakFiltBoost(double sampleRate, double cutoffFrequency, double gain, double bandWidth);
     float process(float input);
-    void setCoefficients(int sampleRate, double cutoffFrequency, double gain, double bandWidth);
+    void setCoefficients(double sampleRate, double cutoffFrequency, double gain, double bandWidth);
 
 private:
     double mWc;
     double mWb;
-    double x1;
-    double x2;
+    double x1 = 0;
+    double x2 = 0;
     double V0;
     double H0;
     double c;
