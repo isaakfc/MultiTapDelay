@@ -108,7 +108,10 @@
 		683DE58C2A9D47129E42A493 /* commoniids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8534DEE8791D41DC80134FE4 /* commoniids.cpp */; };
 		6857D86A5C2A4F0F9351410F /* 77975A13F5B35D5691DE70488BF562E2_snapshot_2.0x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC12224769AE401FA137412D /* 77975A13F5B35D5691DE70488BF562E2_snapshot_2.0x.png */; };
 		69D28C67D0DD4812BC17E096 /* vstcomponentbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE116C1729124D93BBDCA824 /* vstcomponentbase.cpp */; };
+		6A4044AB29E78E110083EB25 /* ParameterCrossfade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A4044A929E78E110083EB25 /* ParameterCrossfade.cpp */; };
 		6A89637A29E1C00200A0FFC1 /* PeakFilt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A89637829E1C00200A0FFC1 /* PeakFilt.cpp */; };
+		6A93D8AA29E4EED20075C113 /* BiquadFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A93D8A829E4EECE0075C113 /* BiquadFilter.cpp */; };
+		6A93D8AD29E4EFAF0075C113 /* ButterworthFilters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A93D8AB29E4EFAF0075C113 /* ButterworthFilters.cpp */; };
 		6AA5C56F29DDC525004789F5 /* RingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5C56D29DDC525004789F5 /* RingBuffer.cpp */; };
 		6AF1275329DF3C9B00DC2C32 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1275129DF3C9800DC2C32 /* Utils.cpp */; };
 		6B1A71BB2CA447379D79D8C1 /* threadchecker_win32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 566B671C4F244643B687CB45 /* threadchecker_win32.cpp */; };
@@ -536,8 +539,15 @@
 		666456AA1D2F4B19A2F6C5B0 /* controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controller.cpp; path = source/controller.cpp; sourceTree = SOURCE_ROOT; };
 		66871691E6A44339B31AF146 /* SMTG_GenerateSourceGroups.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SMTG_GenerateSourceGroups.cmake; path = /Users/isaac/Desktop/VST_SDK/vst3sdk/cmake/modules/SMTG_GenerateSourceGroups.cmake; sourceTree = "<absolute>"; };
 		67A74C05DEAB40D98F0D8C46 /* SMTG_AddAAXLibrary.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SMTG_AddAAXLibrary.cmake; path = /Users/isaac/Desktop/VST_SDK/vst3sdk/cmake/modules/SMTG_AddAAXLibrary.cmake; sourceTree = "<absolute>"; };
+		6A4044A929E78E110083EB25 /* ParameterCrossfade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ParameterCrossfade.cpp; path = source/ParameterCrossfade.cpp; sourceTree = "<group>"; };
+		6A4044AA29E78E110083EB25 /* ParameterCrossfade.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParameterCrossfade.hpp; path = source/ParameterCrossfade.hpp; sourceTree = "<group>"; };
 		6A89637829E1C00200A0FFC1 /* PeakFilt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PeakFilt.cpp; path = source/PeakFilt.cpp; sourceTree = "<group>"; };
 		6A89637929E1C00200A0FFC1 /* PeakFilt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PeakFilt.hpp; path = source/PeakFilt.hpp; sourceTree = "<group>"; };
+		6A93D8A629E4EE640075C113 /* Filter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Filter.hpp; path = source/Filter.hpp; sourceTree = "<group>"; };
+		6A93D8A829E4EECE0075C113 /* BiquadFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BiquadFilter.cpp; path = source/BiquadFilter.cpp; sourceTree = "<group>"; };
+		6A93D8A929E4EECE0075C113 /* BiquadFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BiquadFilter.hpp; path = source/BiquadFilter.hpp; sourceTree = "<group>"; };
+		6A93D8AB29E4EFAF0075C113 /* ButterworthFilters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ButterworthFilters.cpp; path = source/ButterworthFilters.cpp; sourceTree = "<group>"; };
+		6A93D8AC29E4EFAF0075C113 /* ButterworthFilters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ButterworthFilters.hpp; path = source/ButterworthFilters.hpp; sourceTree = "<group>"; };
 		6AA5C56D29DDC525004789F5 /* RingBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RingBuffer.cpp; path = source/RingBuffer.cpp; sourceTree = "<group>"; };
 		6AA5C56E29DDC525004789F5 /* RingBuffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = RingBuffer.hpp; path = source/RingBuffer.hpp; sourceTree = "<group>"; };
 		6AA986F054704D4897A968D1 /* plugcompat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcompat.h; path = /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/testsuite/general/plugcompat.h; sourceTree = "<absolute>"; };
@@ -1093,6 +1103,10 @@
 				6AA5C56E29DDC525004789F5 /* RingBuffer.hpp */,
 				6AF1275229DF3C9800DC2C32 /* Utils.hpp */,
 				6A89637929E1C00200A0FFC1 /* PeakFilt.hpp */,
+				6A93D8A629E4EE640075C113 /* Filter.hpp */,
+				6A93D8A929E4EECE0075C113 /* BiquadFilter.hpp */,
+				6A93D8AC29E4EFAF0075C113 /* ButterworthFilters.hpp */,
+				6A4044AA29E78E110083EB25 /* ParameterCrossfade.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -1215,6 +1229,9 @@
 				6AA5C56D29DDC525004789F5 /* RingBuffer.cpp */,
 				6AF1275129DF3C9800DC2C32 /* Utils.cpp */,
 				6A89637829E1C00200A0FFC1 /* PeakFilt.cpp */,
+				6A93D8A829E4EECE0075C113 /* BiquadFilter.cpp */,
+				6A93D8AB29E4EFAF0075C113 /* ButterworthFilters.cpp */,
+				6A4044A929E78E110083EB25 /* ParameterCrossfade.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -1715,7 +1732,10 @@
 				6A89637A29E1C00200A0FFC1 /* PeakFilt.cpp in Sources */,
 				72E90E081A3C4D69B1128A0D /* controller.cpp in Sources */,
 				F2E127E8D9AD4AC6835EA5F8 /* entry.cpp in Sources */,
+				6A93D8AA29E4EED20075C113 /* BiquadFilter.cpp in Sources */,
+				6A4044AB29E78E110083EB25 /* ParameterCrossfade.cpp in Sources */,
 				2583F497DF0B4DE9B0F5018C /* processor.cpp in Sources */,
+				6A93D8AD29E4EFAF0075C113 /* ButterworthFilters.cpp in Sources */,
 				6AA5C56F29DDC525004789F5 /* RingBuffer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

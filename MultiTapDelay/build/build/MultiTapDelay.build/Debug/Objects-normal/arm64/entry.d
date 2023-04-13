@@ -29,6 +29,10 @@ dependencies: \
   /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h \
   /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/RingBuffer.hpp \
   /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/PeakFilt.hpp \
+  /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/ButterworthFilters.hpp \
+  /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/BiquadFilter.hpp \
+  /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/Filter.hpp \
+  /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/ParameterCrossfade.hpp \
   /Users/isaac/Documents/UWLDAE/SEMESTER2/AP2/ASSESMENT1/C++PROJECT/MultiTapDelay/source/controller.h \
   /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vsteditcontroller.h \
   /Users/isaac/Desktop/VST_SDK/vst3sdk/public.sdk/source/vst/vstparameters.h \

@@ -37,5 +37,6 @@ enum MultiTapParams : Steinberg::Vst::ParamID
     kParamTapeEQLevel = 117,
     kParamTapeWowFlutterDepth = 118,
     kParamTapeWowFlutterFreq = 119,
+    kWarmth = 120
     
 };

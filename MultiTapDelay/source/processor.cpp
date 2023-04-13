@@ -81,6 +81,11 @@ tresult PLUGIN_API MultiTapDelayProcessor::setActive (TBool state)
         {
             rbufferVec.push_back(RingBuffer(6 * processSetup.sampleRate));
             pFiltVec.push_back(PeakFiltBoost(processSetup.sampleRate, 100, mPFiltGain, 100));
+            LowPassVec.push_back(ButterworthLowPassFilter(20000, processSetup.sampleRate));
+            HighPassVec.push_back(ButterworthHighPassFilter(0, processSetup.sampleRate));
+            LowPassVec.push_back(ButterworthLowPassFilter(20000, processSetup.sampleRate));
+            HighPassVec.push_back(ButterworthHighPassFilter(0, processSetup.sampleRate));
+            pCrossfade.push_back(ParameterCrossfade(processSetup.sampleRate, 5 , 0.2, mDelay1Time, 0.0001));
             
         }
     
@@ -190,6 +195,18 @@ void MultiTapDelayProcessor::handleParameterChanges (Steinberg::Vst::IParameterC
                             pFiltVec.at(0).setCoefficients(processSetup.sampleRate, 100, mPFiltGain, 100);
                             pFiltVec.at(1).setCoefficients(processSetup.sampleRate, 100, mPFiltGain, 100);
                             break;
+                    case MultiTapParams::kWarmth:
+                        if (paramQueue->getPoint (numPoints - 1, sampleOffset, value) == kResultTrue)
+                            mWarmthHigh= value * 70;
+                            mWarmthLow = 20000 + value*(10000 - 20000);
+                            LowPassVec.at(0).updateCoefs(mWarmthLow);
+                            LowPassVec.at(1).updateCoefs(mWarmthLow);
+                            LowPassVec.at(2).updateCoefs(mWarmthLow);
+                            LowPassVec.at(3).updateCoefs(mWarmthLow);
+                            HighPassVec.at(0).updateCoefs(mWarmthHigh);
+                            HighPassVec.at(1).updateCoefs(mWarmthHigh);
+                            HighPassVec.at(2).updateCoefs(mWarmthHigh);
+                            HighPassVec.at(3).updateCoefs(mWarmthHigh);
                 }
             }
         }
@@ -236,12 +253,14 @@ tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
         Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
         Vst::Sample32 tmp;
         int sampleCount = 0;
+        pCrossfade[i].parameterChanged(mDelay1Time);
         // for each sample in this channel
         while (--samples >= 0)
         {
 
             // apply gain
-            double delay1InSamples = processSetup.sampleRate * (mDelay1Time / 1000);
+            double processedDelayVal =  pCrossfade[i].ignoreLargeChange(mDelay1Time);
+            double delay1InSamples = processSetup.sampleRate * (processedDelayVal / 1000);
             double delay2InSamples = processSetup.sampleRate * (delayValues[mDelay2Time] / 1000);
             double delay3InSamples = processSetup.sampleRate * (delayValues[mDelay3Time] / 1000);
             double delay4InSamples = processSetup.sampleRate * (delayValues[mDelay4Time] / 1000);
@@ -250,9 +269,18 @@ tresult PLUGIN_API MultiTapDelayProcessor::process (Vst::ProcessData& data)
             rbufferVec[i].write(current + (mDelay1Fb * rbufferVec[i].readInterp(delay1InSamples)) + (mDelay2Fb * rbufferVec[i].readInterp(delay2InSamples)) + (mDelay3Fb * rbufferVec[i].readInterp(delay3InSamples)) + (mDelay4Fb * rbufferVec[i].readInterp(delay4InSamples)));
             if (mSaturationActive)
             {
-                current = arctanDistortion(current, mDistortionAmount);
+                delayed = arctanDistortion(delayed, mDistortionAmount);
             }
-            current = pFiltVec[i].process(current);
+            delayed = pFiltVec[i].process(delayed);
+            if (mWarmthHigh > 0)
+            {
+                delayed = LowPassVec[i].process(delayed);
+                delayed = LowPassVec[i+2].process(delayed);
+                delayed = HighPassVec[i].process(delayed);
+                delayed = HighPassVec[i+2].process(delayed);
+            }
+            
+            current = pCrossfade[i].process(delayed);
             tmp = mMix * delayed + (1 - mMix) * current;
             (*ptrOut++) = tmp;
 //            (*ptrOut++) = (*ptrIn++);

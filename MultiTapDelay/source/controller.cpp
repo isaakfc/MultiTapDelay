@@ -80,11 +80,13 @@ tresult PLUGIN_API MultiTapDelayController::initialize (FUnknown* context)
     
     Vst::Parameter* EqLevel = new Vst::RangeParameter(STR16 ("Tape EQ Level"),MultiTapParams::kParamTapeEQLevel,STR16 ("Db"), 0, 10, 0);
     
+    Vst::Parameter* warmth = new Vst::RangeParameter(STR16 ("Warmth"),MultiTapParams::kWarmth,nullptr, 0, 1, 0);
+    
     // Wow & Flutter
     
-    Vst::Parameter* wfDepth = new Vst::RangeParameter(STR16 ("Wow & Flutter Depth"),MultiTapParams::kParamTapeWowFlutterDepth,STR16 ("Ms"), 0, 100, 0);
-    
-    Vst::Parameter* wfFreq = new Vst::RangeParameter(STR16 ("Wow & Flutter Depth"),MultiTapParams::kParamTapeWowFlutterFreq,STR16 ("Hz"), 0, 100, 0);
+//    Vst::Parameter* wfDepth = new Vst::RangeParameter(STR16 ("Wow & Flutter Depth"),MultiTapParams::kParamTapeWowFlutterDepth,STR16 ("Ms"), 0, 100, 0);
+//
+//    Vst::Parameter* wfFreq = new Vst::RangeParameter(STR16 ("Wow & Flutter Depth"),MultiTapParams::kParamTapeWowFlutterFreq,STR16 ("Hz"), 0, 100, 0);
     
     
     
@@ -105,8 +107,9 @@ tresult PLUGIN_API MultiTapDelayController::initialize (FUnknown* context)
     parameters.addParameter(distortionLevel);
     parameters.addParameter(SaturationActive);
     parameters.addParameter(EqLevel);
-    parameters.addParameter(wfDepth);
-    parameters.addParameter(wfFreq);
+    parameters.addParameter(warmth);
+//    parameters.addParameter(wfDepth);
+//    parameters.addParameter(wfFreq);
     
     
     

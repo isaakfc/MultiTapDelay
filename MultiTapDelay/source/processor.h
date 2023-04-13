@@ -10,6 +10,8 @@
 #include "public.sdk/source/vst/vstaudioeffect.h"
 #include "RingBuffer.hpp"
 #include "PeakFilt.hpp"
+#include "ButterworthFilters.hpp"
+#include "ParameterCrossfade.hpp"
 
 
 
@@ -77,11 +79,15 @@ protected:
     float mFlutterDepth = 0;
     float mFlutterFrequency = 0;
     std::vector<RingBuffer> rbufferVec;
-//    std::vector<SincInterpolator> sincInterVec;
     std::vector<PeakFiltBoost> pFiltVec;
+    std::vector<ButterworthLowPassFilter> LowPassVec;
+    std::vector<ButterworthHighPassFilter> HighPassVec;
+    std::vector<ParameterCrossfade> pCrossfade;
     float delayValues[5];
     double mPFiltGain = 0;
     bool mSaturationActive = 0;
+    double mWarmthLow = 20000;
+    double mWarmthHigh = 0;
     
     
 
